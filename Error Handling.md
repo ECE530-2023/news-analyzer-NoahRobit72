@@ -2,6 +2,7 @@
 
 As the creator of my API, it's essential to handle errors effectively to ensure a positive user experience. 
 My API should validate all incoming requests and return appropriate error responses if validation fails. 
+
 The error message will be clear and concise, indicating the specific reason for the failure and providing actionable steps to resolve the issue. 
 It's also important to use the appropriate HTTP status codes to indicate the severity of the error. 
 
