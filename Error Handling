@@ -1,13 +1,12 @@
 HTTP accomplishes this with five categories of status codes:
 
-As the creator of your API, it's essential to handle errors effectively to ensure a positive user experience. 
+As the creator of my API, it's essential to handle errors effectively to ensure a positive user experience. 
 My API should validate all incoming requests and return appropriate error responses if validation fails. 
 The error message will be clear and concise, indicating the specific reason for the failure and providing actionable steps to resolve the issue. 
 It's also important to use the appropriate HTTP status codes to indicate the severity of the error. 
 
 Additionally, it's best practice to log all errors in your application, including the error message and stack trace, to help you diagnose and resolve any issues quickly. 
 By following these best practices, I will ensure that my API provides a smooth and reliable experience for your users.
-
 
 100-level (Informational) – server acknowledges a request
 200-level (Success) – server completed the request as expected
