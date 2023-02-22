@@ -1,0 +1,7 @@
+HTTP accomplishes this with five categories of status codes:
+
+100-level (Informational) – server acknowledges a request
+200-level (Success) – server completed the request as expected
+300-level (Redirection) – client needs to perform further actions to complete the request
+400-level (Client error) – client sent an invalid request
+500-level (Server error) – server failed to fulfill a valid request due to an error with server
