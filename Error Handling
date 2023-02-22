@@ -8,6 +8,8 @@ It's also important to use the appropriate HTTP status codes to indicate the sev
 Additionally, it's best practice to log all errors in your application, including the error message and stack trace, to help you diagnose and resolve any issues quickly. 
 By following these best practices, I will ensure that my API provides a smooth and reliable experience for your users.
 
+All fill return errors in a similar manner as the following
+
 100-level (Informational) – server acknowledges a request
 200-level (Success) – server completed the request as expected
 300-level (Redirection) – client needs to perform further actions to complete the request
