@@ -5,10 +5,10 @@ Export quantitative conclusions
 Export summary observations
 Image caption observations
 
-<dl>
-  <dt>Export sentiment analysis </dt>
-  <dd>Export quantitative conclusions</dd>
-  <dt>Export summary observations</dt>
-  <dd>-Image caption observation</dd>
-</dl>
+<ol>
+  <li>Export sentiment analysis </li>
+  <li>Export quantitative conclusions</li>
+  <li>Export summary observations</li>
+  <li>-Image caption observation</li>
+</ol>
 
