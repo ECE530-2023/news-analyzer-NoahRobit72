@@ -11,9 +11,9 @@ By following these best practices, I will ensure that my API provides a smooth a
 All fill return errors in a similar manner as the following
 
 <ul>
-<li>100-level (Informational) – server acknowledges a request<li>
-<li>200-level (Success) – server completed the request as expected<li>
-<li>300-level (Redirection) – client needs to perform further actions to complete the request<li>
-<li>400-level (Client error) – client sent an invalid request<li>
-<li>500-level (Server error) – server failed to fulfill a valid request due to an error with server<li>
+<li>100-level (Informational) – server acknowledges a request</li>
+<li>200-level (Success) – server completed the request as expected</li>
+<li>300-level (Redirection) – client needs to perform further actions to complete the request</li>
+<li>400-level (Client error) – client sent an invalid request</li>
+<li>500-level (Server error) – server failed to fulfill a valid request due to an error with server</li>
 </ul>
