@@ -1,4 +1,6 @@
-<h1>HTTP accomplishes this with five categories of status codes:</h1>
+<h1>Standard Error Codes for API's</h1>
+
+HTTP accomplishes this with five categories of status codes:
 
 As the creator of my API, it's essential to handle errors effectively to ensure a positive user experience. 
 My API should validate all incoming requests and return appropriate error responses if validation fails. 
