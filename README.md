@@ -22,13 +22,11 @@ The mongoDB will have 4 containers:
 
 * Files:
 	* File ID:
+	* User ID:
 	* File Name:
 	* File Type:
 	* Favorite Status:
 
-* UserFiles:
-	* User ID:
-	* File ID:
 
 * Text Analysis:
 	* File ID:
