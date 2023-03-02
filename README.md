@@ -2,7 +2,7 @@
 * Secure File Uploader/Ingester
 * Text NLP Analysis
 * News feed Ingester
-* The API's will be built with Flask
 
 ## Database Information
+
 
