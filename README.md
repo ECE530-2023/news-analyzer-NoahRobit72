@@ -8,7 +8,8 @@
 2.  JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol. 
 
 Structure:
-![Structure](<img width="645" alt="Structure" src="https://user-images.githubusercontent.com/64294283/222464150-6a6f7299-8333-4af8-8b05-e6141f687fdd.png">)
+<img width="645" alt="Structure" src="https://user-images.githubusercontent.com/64294283/222464606-903732cb-db5e-4458-b021-8642afec1a98.png">
+
 
 ## Database Structure
 
