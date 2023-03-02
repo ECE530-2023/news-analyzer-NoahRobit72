@@ -9,6 +9,6 @@ Image caption observations
   <li>Export sentiment analysis </li>
   <li>Export quantitative conclusions</li>
   <li>Export summary observations</li>
-  <li>-Image caption observation</li>
+  <li>Image caption observation</li>
 </ol>
 
