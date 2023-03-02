@@ -3,6 +3,13 @@
 * Text NLP Analysis
 * News feed Ingester
 
+## Why Mongo DB?
+1.  The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases. 
+2.  JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol. 
+
+Structure:
+![Structure](<img width="645" alt="Structure" src="https://user-images.githubusercontent.com/64294283/222464150-6a6f7299-8333-4af8-8b05-e6141f687fdd.png">)
+
 ## Database Structure
 
 The mongoDB will have 4 containers:
