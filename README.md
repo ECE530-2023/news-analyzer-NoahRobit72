@@ -6,7 +6,7 @@
 ## Database Information
 
 * User:
-	** User ID: 
+	* User ID: 
 	** Username:
 	Password:
 
