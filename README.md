@@ -8,7 +8,7 @@
 2.  JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol. 
 
 ## Structure
-There will be about 4-6 different collections (User, Files, UserFiles...)\ 
+There will be about 4-6 different collections (User, Files, UserFiles...)    
 Addationally inside each collection, there will documents that will be for each user
 <img width="645" alt="Structure" src="https://user-images.githubusercontent.com/64294283/222464606-903732cb-db5e-4458-b021-8642afec1a98.png">
 
