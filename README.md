@@ -13,19 +13,21 @@ Structure:
 
 ## Database Structure
 
-The mongoDB will have 4 containers:
+There will be three containers for Users, File Storage, and Text Analysis.  
+Additionally, there will be documents for each of the users in our system. 
 
 * User:
 	* User ID: 
 	* Username:
 	* Password:
 
-* Files:
+* Files Storage:
+ 	* User ID:
 	* File ID:
-	* User ID:
 	* File Name:
 	* File Type:
 	* Favorite Status:
+	* Date of creation
 
 
 * Text Analysis:
