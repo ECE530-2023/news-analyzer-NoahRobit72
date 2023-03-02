@@ -3,30 +3,31 @@
 * Text NLP Analysis
 * News feed Ingester
 
-## Database Information
+## Database Structure
 
+Container 1
 * User:
 	* User ID: 
-	** Username:
-	Password:
+	* Username:
+	* Password:
 
+Container 1
+* Files:
+	* File ID:
+	* File Name:
+	* File Type:
+	* Favorite Status:
 
-Files:
-	File ID:
-	File Name:
-	File Type:
-	Favorite Status:
+Container 1
+* UserFiles:
+	* User ID:
+	* File ID:
 
-
-UserFiles:
-	User ID:
-	File ID:
-
-
-Text Analysis:
-	File ID:
-	Sentiment Analysis
-Summary Analysis 
+Container 1
+* Text Analysis:
+	* File ID:
+	* Sentiment Analysis
+	* Summary Analysis 
 	
 
 
