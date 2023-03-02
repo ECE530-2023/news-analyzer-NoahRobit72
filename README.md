@@ -5,7 +5,7 @@
 
 ## Database Structure
 
-The following 4 containers will hold the 
+The mongoDB will have 4 containers:
 
 * User:
 	* User ID: 
