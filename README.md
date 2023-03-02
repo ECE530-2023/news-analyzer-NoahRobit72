@@ -5,9 +5,9 @@
 
 ## Database Information
 
-User:
-	User ID: 
-	Username:
+* User:
+	** User ID: 
+	** Username:
 	Password:
 
 
