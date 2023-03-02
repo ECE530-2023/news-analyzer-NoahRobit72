@@ -7,7 +7,6 @@
 1.  The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases. 
 2.  JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol. 
 
-Structure:
 <img width="645" alt="Structure" src="https://user-images.githubusercontent.com/64294283/222464606-903732cb-db5e-4458-b021-8642afec1a98.png">
 
 
