@@ -1,4 +1,4 @@
-## Here I am building a 3 APIs for:
+## Here I an APIs with three different endpoints (destinations):
 * Secure File Uploader/Ingester
 * Text NLP Analysis
 * News feed Ingester
@@ -27,13 +27,24 @@ Additionally, there will be documents for each of the users in our system.
 	* File Name:
 	* File Type:
 	* Favorite Status:
-	* Date of creation
+	* Date of creation:
 
 
 * Text Analysis:
 	* File ID:
-	* Sentiment Analysis
-	* Summary Analysis 
-	
+	* Sentiment Analysis:
+	* Summary Analysis:
+
+
+## Database Implementation
+While this project is one API, the API will have three different endpoints that will correspond to each of the three functions. 
+Because of the mutiple endpoints, we will have to input the "user" and "userID" for every API call.  
+  
+I am still working out what information I would like to "store" in a data structure in the class and what data to send to the database.   
+Addationally, I am still working through what steps I need to take to filter data before I input it into the data base.
+
+## Setps For Setting up MongoDB
+1. Begin with writing code to be able to parse user information  
+2. Implement simple mongoDB that will store the "user" and "userID" information
 
 
