@@ -44,7 +44,7 @@ I am still working out what information I would like to "store" in a data struct
 Addationally, I am still working through what steps I need to take to filter data before I input it into the data base.
 
 ## Setps For Setting up MongoDB
-1. Begin with writing code to be able to parse user information  
+1. Begin with writing code to be able to parse user information (found [here](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f))
 2. Implement simple mongoDB that will store the "user" and "userID" information
 
 
