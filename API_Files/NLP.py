@@ -3,6 +3,10 @@ from flask_restful import Api, Resource
 
 class NLP(Resource):
     def get(self):
-        if(data.isempty()):
-            return("ERROR: 400-level (Client error) client sent an invalid request")
+        parser = reqparse.RequestParser()  # initialize
+        
+        # adding name and ID to NLP analysis 
+        parser.add_argument('userId', required=True)  # add args
+        parser.add_argument('name', required=True)
+        
         return {"data": "Natural Language is processed!"}
