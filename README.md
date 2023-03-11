@@ -11,7 +11,7 @@ Project database outline found (found [here](https://www.freecodecamp.org/news/c
 
 
 
-## March 10th Below
+## Begining - March 10th
 ### Why Mongo DB?
 1.  The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases. 
 2.  JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol. 
