@@ -3,13 +3,18 @@
 * Text NLP Analysis
 * News feed Ingester
 
+## March 10 - present
+Building the project with MySql Server
+Project database outline found (found [here]([https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f](https://www.freecodecamp.org/news/connect-python-with-sql/)))
+
+
+
+
+## March 10th Below
 ## Why Mongo DB?
 1.  The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases. 
 2.  JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol. 
 
-Structure:
-![Structure](<img width="645" alt="Structure" src="https://user-images.githubusercontent.com/64294283/222464308-8a3dba95-f4ff-4ca6-9214-1ff07d01ed1d.png">
-)
 
 ## Database Structure
 
