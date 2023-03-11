@@ -5,7 +5,7 @@
 
 ## March 10 - present
 Building the project with MySql Server
-Project database outline found (found [here]([https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f](https://www.freecodecamp.org/news/connect-python-with-sql/)))
+Project database outline found (found [here](https://www.freecodecamp.org/news/connect-python-with-sql/)
 
 
 
