@@ -4,8 +4,8 @@
 * News feed Ingester
 
 ## March 10 - present
-Building the project with MySql Server
-Project database outline found (found [here](https://www.freecodecamp.org/news/connect-python-with-sql/)
+Building the project with MySql Server  
+Project database outline found (found [here](https://www.freecodecamp.org/news/connect-python-with-sql/))
 
 
 
