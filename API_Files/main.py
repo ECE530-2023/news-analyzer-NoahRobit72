@@ -6,6 +6,7 @@ from NLP import NLP
 from SFU import SFU
 from NFI import NFI
 
+
 app = Flask(__name__)
 api = Api(app)
     

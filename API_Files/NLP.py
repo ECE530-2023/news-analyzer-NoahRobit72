@@ -16,8 +16,8 @@ class NLP(Resource):
         parser = reqparse.RequestParser()  # initialize
         
         # adding name and ID to NLP analysis 
-        parser.add_argument('userId', required=True)  # add args
-        parser.add_argument('name', required=True)
+        parser.add_argument('name', required=True)  # add args
+        parser.add_argument('password', required=True)
                 
         args = parser.parse_args()  # parse arguments to dictionary
         
