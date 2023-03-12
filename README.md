@@ -5,8 +5,8 @@
 
 ## March 12th - Present
 ### Building out MySQL
-Currently I am using one database called "geeks" (It will be changed soon)  
-In the database there is currently one table that will host all of the user information  
+Currently I am using one database called "geeks" (It will be changed soon).
+In the database there is currently one table that will host all of the user information. 
 Right now we have two columns. One is username and the other is password. 
 
 ### Parsing the users information
