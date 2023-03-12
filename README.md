@@ -3,15 +3,23 @@
 * Text NLP Analysis
 * News feed Ingester
 
-## March 10 - present
+## March 12th - Present
+### Building out MySQL
+Currently I am using one database called "geeks" (It will be changed soon)  
+In the database there is currently one table that will host all of the user information  
+Right now we have two columns. One is username and the other is password. 
+
+### Parsing the users information
+As API gets information form the HTTP request, the python script will parse the information and input it into the sql database.  
+The next step in this process is to built a function that can be called with input arguments of table, username, and password.  
+
+
+## March 10th - March 12th
 ### Transition to MySql Server
 Building the project with MySql Server  
 Project database outline found (found [here](https://www.freecodecamp.org/news/connect-python-with-sql/))
   
 We are going to locally host the MySQL database with (found [here](https://www.geeksforgeeks.org/how-to-connect-python-with-sql-database/))
-
-
-
 
 ## Begining - March 10th
 ### Why Mongo DB?
