@@ -7,6 +7,8 @@
 ### Transition to MySql Server
 Building the project with MySql Server  
 Project database outline found (found [here](https://www.freecodecamp.org/news/connect-python-with-sql/))
+  
+We are going to locally host the MySQL database with (found [here](https://www.geeksforgeeks.org/how-to-connect-python-with-sql-database/))
 
 
 
