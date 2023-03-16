@@ -33,24 +33,19 @@ There will be three containers for Users, File Storage, and Text Analysis.
 Additionally, there will be documents for each of the users in our system. 
 
 * User:
-	* User ID: 
+	* User Email
 	* Username:
 	* Password:
 
 * Files Storage:
- 	* User ID:
 	* File ID:
 	* File Name:
 	* File Type:
 	* Favorite Status:
-	* Date of creation:
-
 
 * Text Analysis:
+	* Keyword:
 	* File ID:
-	* Sentiment Analysis:
-	* Summary Analysis:
-
 
 ### Database Implementation
 While this project is one API, the API will have three different endpoints that will correspond to each of the three functions. 
