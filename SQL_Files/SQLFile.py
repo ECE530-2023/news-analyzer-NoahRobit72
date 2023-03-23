@@ -16,7 +16,7 @@ print(mydb)
 # statements in 'Python'
 cursor = mydb.cursor()
 
-# cursor.execute("CREATE DATABASE geeks3")
+cursor.execute("CREATE DATABASE geeks3")
 
 cursor.execute("USE geeks3")
 cursor.execute("CREATE TABLE UserInfo (name VARCHAR(255), password VARCHAR(255))")
@@ -26,6 +26,8 @@ sql = "INSERT INTO UserInfo (name, password) VALUES (%s, %s)"
 val = ("John", "Highway 21")
 cursor.execute(sql, val)
 mydb.commit()
+
+
 
 print(cursor.rowcount, "record inserted.")
  
