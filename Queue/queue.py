@@ -1,9 +1,5 @@
-import queue
-import requests
-import threading
-
-# Create a queue to hold the requests
-request_queue = queue.Queue()
+import asyncio
+import aiohttp
 
 # Define the structure of the request
 class Request:
@@ -14,36 +10,35 @@ class Request:
         self.payload = payload
 
 # Add requests to the queue
-request_queue.put(Request('https://jsonplaceholder.typicode.com/posts', 'GET'))
-request_queue.put(Request('https://jsonplaceholder.typicode.com/posts', 'POST', headers={'Content-Type': 'application/json'}, payload={'title': 'foo', 'body': 'bar', 'userId': 1}))
+requests = [
+    Request('https://jsonplaceholder.typicode.com/posts', 'GET'),
+    Request('https://jsonplaceholder.typicode.com/posts', 'POST', headers={'Content-Type': 'application/json'}, payload={'title': 'foo', 'body': 'bar', 'userId': 1})
+]
 
-# Process the requests
-def process_requests():
-    while not request_queue.empty():
-        # Dequeue a request from the front of the queue
-        request = request_queue.get()
-
-        # Make the HTTP request
+# Define the async function to process the requests
+async def process_request(request):
+    async with aiohttp.ClientSession() as session:
         try:
             if request.method == 'GET':
-                response = requests.get(request.url, headers=request.headers)
+                async with session.get(request.url, headers=request.headers) as response:
+                    response_json = await response.json()
             elif request.method == 'POST':
-                response = requests.post(request.url, headers=request.headers, json=request.payload)
+                async with session.post(request.url, headers=request.headers, json=request.payload) as response:
+                    response_json = await response.json()
             # Add other HTTP methods as needed
 
             # Handle the response
-            print(response.json())
+            print(response_json)
         except Exception as e:
             print(f'Error making request: {e}')
 
-# Spawn multiple threads to process the requests concurrently
-num_threads = 4
-threads = []
-for i in range(num_threads):
-    t = threading.Thread(target=process_requests)
-    threads.append(t)
-    t.start()
+# Define the main async function to process all requests
+async def main():
+    # Create a list of coroutines for each request
+    coroutines = [process_request(request) for request in requests]
 
-# Wait for all threads to finish
-for t in threads:
-    t.join()
+    # Run the coroutines concurrently
+    await asyncio.gather(*coroutines)
+
+# Run the main async function
+asyncio.run(main())

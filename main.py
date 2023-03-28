@@ -12,12 +12,11 @@ Init_Database()
 app = Flask(__name__)
 api = Api(app)
     
-# Adding the paths and classes
+# Adding the endpoints
 api.add_resource(NLP, "/NLP")
 api.add_resource(NFI, "/NFI")
 api.add_resource(SFU, "/SFU")
 
-# 
 
 if __name__ == "__main__":
     app.run(debug=True)
